@@ -41,3 +41,6 @@ console.log(countIncrease(depths));
 /////////////////////////////////
 //ADVENT OF CODE - Challenge #2//
 /////////////////////////////////
+
+let horizontal = 0;
+let depth = 0;
