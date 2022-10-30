@@ -1,8 +1,8 @@
 ////////
 //ADVENT OF CODE - Challenge #1
 ///////
-let numbs = "
-225
+let numbs =
+    "225
 229
 260
 246
