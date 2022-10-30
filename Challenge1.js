@@ -6,6 +6,7 @@ let numbs = "199 203 200 201 196 195 196 214 227 225 229 260 246 253 271 281 280
 //Trying to get the split method call to see what type of variable numbs is going to be - kept getting string for a minute
 console.log("Numbers: " + numbs.split(' '));
 console.log(typeof numbs);
+
 //Doing the split method call to separate the spaces
 numbs.split(' ');
 //Had to add them to an array and transform the values to an int
