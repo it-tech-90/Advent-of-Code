@@ -22,7 +22,7 @@ console.log(typeof depths);
 const countIncrease = function(arr) {
     let counter = 0;
     let lastDepth = 0;
-    //Checking each number and comparing to the last one with lastDepth
+    //Checking each number and comparing to the last one with lastDepth variable (assigned in parent function)
     arr.forEach(function(depth) {
         let depthResult = depth - lastDepth;
         if (Math.sign(depthResult) === 1) {
