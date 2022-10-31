@@ -16,7 +16,7 @@ const depths = numbs.split(' ').map(function(numb) {
 //Logging to check if depths contains the right values
 console.log("Depths: " + depths); //It does...
 //Making sure depths is an object
-console.log(typeof depths); //Object
+console.log(typeof depths); //Confirmed...is Object :D
 
 //Function to increase count variable for each time the numbers increase
 function countIncrease(arr) {
@@ -28,7 +28,7 @@ function countIncrease(arr) {
         if (Math.sign(depthResult) === 1) {
             counter++;
         }
-        //Assigning current number to variable for next iteration
+        //Assigning current depth to variable for next iteration
         lastDepth = depth;
     });
     //Returning counter - 1 so first iteration isn't counted
@@ -41,3 +41,6 @@ console.log(countIncrease(depths));
 /////////////////////////////////
 //ADVENT OF CODE - Challenge #2//
 /////////////////////////////////
+
+let horizontal = 0;
+let depth = 0;
