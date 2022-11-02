@@ -44,3 +44,33 @@ console.log(countIncrease(depths));
 
 let horizontal = 0;
 let depth = 0;
+
+class VETSworker {
+    constructor(fname, lname, worksHere) {
+        this.firstName = fname;
+        this.lastName = lname;
+        this.works = worksHere;
+    }
+
+    get name() {
+        return this.firstName + ' ' + this.lastName;
+    }
+
+    isWorkerHere() {
+        if (this.works === true) {
+            console.log(`Yes, ${this.firstName} ${this.lastName} works here!`);
+            return true;
+        } else {
+            console.log(`Nope, they don't work here.`);
+            return false;
+        }
+    }
+}
+
+const Dan = new VETSworker('Dan', 'Geldert', true);
+
+if (!Dan.isWorkerHere()) {
+    console.log("Awe damn!");
+} else {
+    console.log("Sweet!");
+}
